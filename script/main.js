@@ -71,12 +71,10 @@ $(document).ready(function(){
 //3.'정지','플레이' 아이콘 추가하여 클릭시 슬라이드 멈추기,다시 재생하기
  
 $('.m_slide i.fa-stop').click(function(){
-  alert('aaaaa');
   clearInterval(Timer);
 });
 
 $('.m_slide i.fa-play').click(function(){
-  Timer = setInterval(moveLeft, 3000);
-  alert('aaaa');  
+  Timer = setInterval(moveLeft, 3000); 
 });
 });
